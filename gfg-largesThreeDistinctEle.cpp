@@ -11,8 +11,9 @@ class Solution {
         // max so we take opposite value
         
         for(int i=0; i<arr.size(); i++){ // iterate on entire array
-            int num = arr[i]; 
+            int num = arr[i]; // take every ele and store inside `num` var
             
+
             if(num==max || num==secondMax || num==thirdMax){
                 continue;
             }
@@ -22,15 +23,27 @@ class Solution {
                 secondMax = max;
                 max = num;
             }
+            // if num>2nd_max - means it is less than max but >than 2nd_max
+            // so we only going to change 2nd & 3rd max
             else if(num>secondMax){
                 thirdMax = secondMax;
                 secondMax = num;
             }
+            // it means num is less than max & 2nd_max only greater than 3rd_max
+            // so we only update 3rd_max
             else if(num>thirdMax){
                 thirdMax = num;
             }
         }
         
+        // here we are covering edge cases if no 3 distinct ele is present
+        // so 2nd_max & 3rd_max should be INT_MIN
+        // if no distinct is present they are not going to change right?
+        // and if we have only 2 distinct ele so there are different combinations
+        // so I use if so that we will check for every var
+        // and then push_back because it is vector
+        // and we need ans in decreasing order
+        // so we start doing push_back -> 1st max, 2nd secondMax, 3rd thirdMax
         if(max!=INT_MIN){
             ans.push_back(max);
         }
