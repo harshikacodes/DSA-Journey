@@ -18,6 +18,9 @@ class Solution {
                 continue;
             }
             
+            // if num is > than max means we have to change all three values
+            // because those 3 values are max_3_values - if something is 
+            // > than max then the lesser value is also less
             if(num>max){
                 thirdMax = secondMax;
                 secondMax = max;
