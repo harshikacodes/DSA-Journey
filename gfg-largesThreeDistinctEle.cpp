@@ -13,7 +13,9 @@ class Solution {
         for(int i=0; i<arr.size(); i++){ // iterate on entire array
             int num = arr[i]; // take every ele and store inside `num` var
             
-
+            // here... if num is equals to any of the three var, we don't do anything
+            // it is redundant if num is equals to any of these and we start checking for 
+            // it is > than which ele
             if(num==max || num==secondMax || num==thirdMax){
                 continue;
             }
