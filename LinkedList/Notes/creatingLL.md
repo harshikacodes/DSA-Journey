@@ -1,5 +1,7 @@
 # 💻 Creating a Linked List in Java
 
+`main.java`
+
 ```java
 class Node {
     int data; // contains the value of the node
@@ -19,7 +21,7 @@ class Node {
     }
 }
 
-public class creatingLL {
+public class main {
     public static void main(String[] args) {
         int[] arr = {2, 5, 8, 7};
 
