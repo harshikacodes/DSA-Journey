@@ -1,4 +1,4 @@
-# Length of a Linked List
+# 4. Length of a Linked List
 
 ``` java
 public class LinkedList{

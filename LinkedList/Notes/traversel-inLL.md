@@ -1,4 +1,4 @@
-# Traversing through a Linked List
+# 3. Traversing through a Linked List
 
 ``` java
 public class LinkedList{

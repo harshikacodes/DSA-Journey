@@ -1,4 +1,4 @@
-# 💻 Creating a Linked List in Java
+# 1. Creating a Linked List in Java
 
 `main.java`
 
