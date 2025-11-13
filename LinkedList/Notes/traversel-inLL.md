@@ -17,3 +17,5 @@ public class LinkedList{
     }
 }
 ```
+
+TC: O(n) 
