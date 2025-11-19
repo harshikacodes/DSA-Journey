@@ -40,3 +40,6 @@ public static void main(String[] args) {
     head = removesHead(head);
     print(head);
 }
+```
+
+-> In java there is no need to free up the memory because there is garbage collector is there.
