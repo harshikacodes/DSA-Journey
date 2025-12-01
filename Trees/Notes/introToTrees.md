@@ -1,4 +1,4 @@
-# Introduction to Trees
+# 1. Introduction to Trees
 
 ## 1. Core Concepts
 

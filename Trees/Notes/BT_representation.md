@@ -1,4 +1,4 @@
-# Binary Tree Representation in Java 
+# 2. Binary Tree Representation in Java 
 
 ## 1. Core Concepts & Intuition
 
