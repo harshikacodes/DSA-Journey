@@ -57,3 +57,11 @@ class Solution {
         preorder(root.right, ans);
     }
 }
+
+// Auxiliary Space
+// Worst case (skewed tree): O(N)
+// Balanced tree: O(log N)
+
+// Complexity
+// Time: O(N) → every node is visited once  
+// Space: O(H) → recursion stack = height of tree 
