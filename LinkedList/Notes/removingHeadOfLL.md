@@ -1,4 +1,4 @@
-# 🔗 Remove Head of Linked List & Print the List
+# 6. Remove Head of Linked List & Print the List
 
 
 ```java
